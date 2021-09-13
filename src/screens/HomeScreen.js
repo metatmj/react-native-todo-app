@@ -30,7 +30,7 @@ const HomeScreen = ({ navigation }) => {
 	const renderEmptyList = () => {
 		return (
 			<View style={styles.emptyContainer}>
-				<TouchableOpacity onPress={() => navigation.push('add', { member: null })} style={styles.addFirstButton}>
+				<TouchableOpacity onPress={() => navigation.push('add')} style={styles.addFirstButton}>
 					<Text style={styles.addFirstButtonText}>Add your first member</Text>
 				</TouchableOpacity>
 			</View>
